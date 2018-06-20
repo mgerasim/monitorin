@@ -1,2 +1,2 @@
 # monitorin
-Zabbix server
+Zabbix server - сервер мониторинга инфраструктуры
