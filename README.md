@@ -34,6 +34,8 @@ cat /var/log/zabbix/zabbix_agentd.log
 
 ## Авторизация по ключу
 
+ssh-keygen -t rsa
+
 cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
 scp -r ~/.ssh* root@ast01:~/
