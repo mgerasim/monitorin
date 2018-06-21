@@ -31,3 +31,13 @@ systemctl restart zabbix-agent
 systemctl enable zabbix-agent
 
 cat /var/log/zabbix/zabbix_agentd.log
+
+## Авторизация по ключу
+
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+
+ssh root@ast01
+
+scp -r ~/.ssh* ast01:~/
+
+scp -r ~/.ssh* root@ast01:~/
