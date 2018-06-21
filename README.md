@@ -7,6 +7,9 @@ Small| 	CentOS| 	Virtual| Appliance| 	MySQL| InnoDB| 	100
 Имя: zbx01
 
 Инициализация:
+
+mv .bash_profile .bash_profile.bak
+
 wget https://raw.githubusercontent.com/mgerasim/bash_profile/master/.bash_profile
 
 Установка агента:
