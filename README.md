@@ -26,3 +26,5 @@ Hostname=srv10
 systemctl restart zabbix-agent
 
 systemctl enable zabbix-agent
+
+cat /var/log/zabbix/zabbix_agentd.log
