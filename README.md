@@ -1,3 +1,6 @@
+# Установка
+* https://www.howtoforge.com/tutorial/centos-zabbix-system-monitoring/
+* https://serveradmin.ru/ustanovka-i-nastroyka-zabbix-3-4-na-centos-7/
 # monitorin
 Zabbix server - сервер мониторинга инфраструктуры
 Требования:
