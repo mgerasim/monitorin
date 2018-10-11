@@ -1,6 +1,10 @@
 # Установка
 * https://www.howtoforge.com/tutorial/centos-zabbix-system-monitoring/
 * https://serveradmin.ru/ustanovka-i-nastroyka-zabbix-3-4-na-centos-7/
+
+# SSL
+* https://www.tecmint.com/install-lets-encrypt-ssl-certificate-to-secure-apache-on-rhel-centos/
+
 # monitorin
 Zabbix server - сервер мониторинга инфраструктуры
 Требования:
